@@ -26,79 +26,39 @@ $-clr-cyan-light: hsl(194 98% 81%);
 $-clr-cyan-mid: hsl(194 64% 53%);
 $-clr-cyan-dark: hsl(195 69% 27%);
 
-$light: (
+$default: (
   "neutral": (
     "000": $-clr-white,
-    "100": $-clr-gray-100,
-    "200": $-clr-gray-200,
-    "300": $-clr-gray-300,
-    "400": $-clr-gray-400,
-    "500": $-clr-gray-500,
-    "600": $-clr-gray-600,
-    "700": $-clr-gray-700,
-    "800": $-clr-gray-800,
-    "900": $-clr-gray-900,
-    "1000": $-clr-black,
+    "100": $-clr-grey-light,
+    "400": $-clr-grey-mid,
+    "700": $-clr-grey-dark,
   ),
-  "accent": (
-    "100": $-clr-deeppink-100,
-    "200": $-clr-deeppink-200,
-    "300": $-clr-deeppink-300,
-    "400": $-clr-deeppink-400,
-    "500": $-clr-deeppink-500,
-    "600": $-clr-deeppink-600,
-    "700": $-clr-deeppink-700,
-    "800": $-clr-deeppink-800,
-    "900": $-clr-deeppink-900,
+  "brand-primary": (
+    "100": $-clr-blue-very-light,
+    "200": $-clr-blue-light,
+    "400": $-clr-blue-mid,
+    "700": $-clr-blue-dark,
   ),
-  "primary": (
-    "100": $-clr-skyblue-100,
-    "200": $-clr-skyblue-200,
-    "300": $-clr-skyblue-300,
-    "400": $-clr-skyblue-400,
-    "500": $-clr-skyblue-500,
-    "600": $-clr-skyblue-600,
-    "700": $-clr-skyblue-700,
-    "800": $-clr-skyblue-800,
-    "900": $-clr-skyblue-900,
+  "brand-accent": (
+    "100": $-clr-green-very-light,
+    "200": $-clr-green-light,
+    "400": $-clr-green-mid,
+    "700": $-clr-green-dark,
   ),
-);
-
-$dark: (
-  "neutral": (
-    "1000": $-clr-white,
-    "900": $-clr-gray-100,
-    "800": $-clr-gray-200,
-    "700": $-clr-gray-300,
-    "600": $-clr-gray-400,
-    "500": $-clr-gray-500,
-    "400": $-clr-gray-600,
-    "300": $-clr-gray-700,
-    "200": $-clr-gray-800,
-    "100": $-clr-gray-900,
-    "000": $-clr-black,
+  "yellow": (
+    "300": $-clr-yellow-light,
+    "400": $-clr-yellow-mid,
+    "500": $-clr-yellow-dark,
   ),
-  "accent": (
-    "900": $-clr-deeppink-900,
-    "800": $-clr-deeppink-800,
-    "700": $-clr-deeppink-700,
-    "600": $-clr-deeppink-600,
-    "500": $-clr-deeppink-500,
-    "400": $-clr-deeppink-400,
-    "300": $-clr-deeppink-300,
-    "200": $-clr-deeppink-200,
-    "100": $-clr-deeppink-100,
+  "pink": (
+    "300": $-clr-pink-light,
+    "400": $-clr-pink-mid,
+    "500": $-clr-pink-dark,
   ),
-  "primary": (
-    "900": $-clr-skyblue-900,
-    "800": $-clr-skyblue-800,
-    "700": $-clr-skyblue-700,
-    "600": $-clr-skyblue-600,
-    "500": $-clr-skyblue-500,
-    "400": $-clr-skyblue-400,
-    "300": $-clr-skyblue-300,
-    "200": $-clr-skyblue-200,
-    "100": $-clr-skyblue-100,
+  "cyan": (
+    "300": $-clr-cyan-light,
+    "400": $-clr-cyan-mid,
+    "500": $-clr-cyan-dark,
   ),
 );
 
