@@ -128,6 +128,14 @@ $card-line-height: $body-line-height;
 $card-heading-color-default: $card-color-default;
 $card-heading-font-size: $font-size-700;
 
+// logo
+$logo-fill-default: $color-cyan-300;
+$logo-fill-header: $logo-fill-default;
+$logo-fill-footer: $logo-fill-default;
+$logo-size-default: 3.8rem;
+$logo-size-header: $logo-size-default;
+$logo-size-footer: $logo-size-default;
+
 // forms - not currently being used
 // if implementing forms, also add _forms.scss
 // to the _index.scss in /components
