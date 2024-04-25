@@ -4,18 +4,26 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DS website template</title>
+    <title>BrandBoosters</title>
     <link rel="stylesheet" href="/sass/main.scss" />
   </head>
   <body>
     <header class="site-header">
-      <div class="container">
-        <div class="site-header__layout">
-          <nav class="primary-navigation">
-            <ul class="nav | flex-group ff-accent fs-400">
-              <li><a class="clr-neutral-100" href="#about">About us</a></li>
-              <li><a class="clr-neutral-100" href="#about">About us</a></li>
-              <li><a class="clr-neutral-100" href="#about">About us</a></li>
+      <div class="container" data-type="wide">
+        <div class="site-header__inner">
+          <!-- logo -->
+          <svg class="logo" viewBox="0 0 62 62">
+            <use xlink:href="#logo"></use>
+          </svg>
+
+          <!-- nav -->
+          <nav aria-label="primary-navigation">
+            <ul class="nav | flex-group">
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#about">About us</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Careers</a></li>
             </ul>
           </nav>
         </div>
@@ -23,28 +31,156 @@
     </header>
 
     <main>
-      <section class="about | section mx-auto" id="about">
-        <div class="container">
-          <div class="even-columns">
+      <!-- hero -->
+      <section class="hero | section">
+        <div class="container" data-type="wide">
+          <div class="even-columns vertically-centered">
             <div class="flow">
-              <h1 class="heading-1">Hero?</h1>
-              <p class="fs-600">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Perferendis repellat laborum totam non quidem sit recusandae ab
-                iusto reiciendis laudantium.
+              <h1 class="heading-1">
+                Welcome to
+                <span class="clr-brand-accent-400">BrandBoosters</span>
+              </h1>
+              <p>
+                Dedicated to boosting your brand’s visibility and success that
+                uses the latest strategies & techniques to help you reach your
+                target audience and achieve your goals.
               </p>
 
-              <div class="flex-group" data-spacing="center">
-                <button class="button" data-type="accent">Accent button</button>
-                <button class="button" data-type="primary">
-                  Primary button
-                </button>
+              <!-- cta buttons -->
+              <div class="flex-group">
+                <a href="#" class="button" data-type="primary">Join now</a>
+                <a href="#" class="button">Learn more</a>
               </div>
+            </div>
+
+            <!-- image -->
+            <div>
+              <img
+                class="hero__image | border-radius-2"
+                src="assets/group-on-computer.webp"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about us -->
+      <section class="section bg-brand-primary-700 clr-neutral-000" id="about">
+        <div class="container">
+          <div class="even-columns vertically-centered">
+            <div class="flow">
+              <h2 class="heading-2 clr-neutral-000">About us</h2>
+              <p>
+                BrandBoosters was founded with the mission of
+                <span class="fw-bold">helping businesses of all sizes</span>
+                achieve their marketing goals by working closely with each
+                client to
+                <span class="fw-bold"
+                  >develop a customized strategy that delivers results</span
+                >.
+              </p>
+              <a class="button" href="#" data-type="accent"
+                >Learn more about us</a
+              >
+            </div>
+
+            <!-- image -->
+            <div>
+              <img
+                class="hero__image | round-top bg-brand-primary-200"
+                data-position="right"
+                src="assets/girl-on-phone.webp"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- features -->
+      <section class="section" id="features">
+        <div class="container flow">
+          <h2 class="heading-2 text-center">Features</h2>
+          <div class="offset-grid">
+            <div class="card | bg-brand-accent-100">
+              <h3 class="card__heading">Content Creation</h3>
+              <p>
+                High-quality content that resonates with your audience and
+                drives engagement.
+              </p>
+              <a href="#">Try now</a>
+            </div>
+
+            <div class="card | bg-yellow-300">
+              <h3 class="card-heading">Targeted Advertising</h3>
+              <p>
+                Reach your ideal customers with precision through our targeted
+                advertising campaigns.
+              </p>
+              <a href="#">Try now</a>
+            </div>
+
+            <div class="card | bg-pink-300">
+              <h3 class="card__heading">Social Media</h3>
+              <p>
+                Let us handle your social media presence and engage with your
+                audience on a personal level.
+              </p>
+              <a href="#">Try now</a>
+            </div>
+
+            <div class="card | bg-cyan-300">
+              <h3 class="card__heading">Analytics</h3>
+              <p>
+                Stay on top of your campaign’s performance with our detailed
+                analytics and reporting.
+              </p>
+              <a href="#">Try now</a>
             </div>
           </div>
         </div>
       </section>
     </main>
+
+    <footer>
+      <div class="container flow">
+        <nav aria-label="primary navigation">
+          <ul class="nav | flex-group mx-auto">
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </nav>
+
+        <div class="fine-print | fs-200 text-center">
+          &COPY; 2023 Brand, Inc. •
+          <a href="">Privacy </a>• <a href="">Terms </a>•
+          <a href="">Sitemap</a>
+        </div>
+      </div>
+    </footer>
+
+    <svg width="0" height="0">
+      <symbol
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 62 62"
+        id="logo"
+      >
+        <path
+          d="M45.5792 27.5385C52.156 29.9447 56.0059 34.7571 56.0059 41.4142C56.0059 51.1993 47.7447 56.8939 32.265 56.8939H0.663818V0.749756H30.6608C46.1406 0.749756 53.3591 6.92562 53.3591 15.4274C53.3591 20.6408 50.7123 24.972 45.5792 27.5385ZM28.0943 13.9837H19.2716V22.3252H28.0943C32.3452 22.3252 34.2701 20.8815 34.2701 18.1545C34.2701 15.4274 32.3452 13.9837 28.0943 13.9837ZM30.6608 43.6599C34.8316 43.6599 36.9169 42.136 36.9169 39.2486C36.9169 36.3612 34.8316 34.8373 30.6608 34.8373H19.2716V43.6599H30.6608Z"
+          fill="#263651"
+        ></path>
+        <path
+          d="M51.2277 31.895C57.8046 34.3011 61.6545 39.1135 61.6545 45.7706C61.6545 55.5557 53.3933 61.2503 37.9135 61.2503H6.31238V5.10617H36.3094C51.7892 5.10617 59.0077 11.282 59.0077 19.7839C59.0077 24.9972 56.3609 29.3284 51.2277 31.895ZM33.7428 18.3402H24.9202V26.6816H33.7428C37.9937 26.6816 39.9187 25.2379 39.9187 22.5109C39.9187 19.7839 37.9937 18.3402 33.7428 18.3402ZM36.3094 48.0164C40.4801 48.0164 42.5655 46.4924 42.5655 43.605C42.5655 40.7176 40.4801 39.1937 36.3094 39.1937H24.9202V48.0164H36.3094Z"
+          fill="#00D2AC"
+        ></path>
+      </symbol>
+    </svg>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
