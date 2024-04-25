@@ -75,7 +75,7 @@ $site-header-background-color: $color-brand-primary-100;
 $site-header-color: $color-neutral-700;
 $site-header-padding: $size-8 0; // actually, 1.61
 $site-header-margin: 0;
-$site-header-jusitifcation-small-screens: center;
+$site-header-jusitifcation-small-screens: space-between;
 $site-header-jusitifcation-large-screens: space-between;
 $site-header-alignment: center;
 
@@ -102,9 +102,12 @@ $button-font-family: $body-font-family;
 $button-font-size: $font-size-400;
 $button-font-weight: $font-weight-default;
 $button-text-transform: none;
-$button-padding: 0.5em 1em; // 0.56em 1.12em
+$button-padding: 0.75em 1em; // 0.56em 1.12em
 $button-border: 0;
 $button-border-radius: $border-radius-1;
+
+$button-default-background: transparent;
+$button-default-hover-background: $color-neutral-100;
 
 $button-primary-color: $color-neutral-000;
 $button-primary-background: $color-brand-primary-400;
